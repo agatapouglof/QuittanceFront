@@ -19,8 +19,8 @@ phases:
       - ng build --prod
   post_build:
     commands:
-      - mv appspec.yml ./dist/QuittanceFront
-      - mv scripts ./dist/QuittanceFront
+      - cp appspec.yml ./dist/QuittanceFront
+      - cp -r scripts ./dist/QuittanceFront
 artifacts:
   files:
     - "**/*"
