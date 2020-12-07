@@ -33,6 +33,6 @@ Service: Authentification, LocaleStorage
     - Faire toujours une demande de code review par au moins un autre dev après chaque push sur le depot git
     - Prioriser la creation et l'utilisation de composant elementaires
     - Utiliser les modules Admin pour la partie Backoffice admistrateur 
-        et proprietaire pour les composants relatifs aux proprietaires
+        et proprietaire pour les composants relatifs aux proprietaire s
 
 
